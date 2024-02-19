@@ -1,0 +1,122 @@
+[
+  {
+    "ContainingType": "AwesomeDevEvents.API.Controllers.DevEventsController",
+    "Method": "GetAll",
+    "RelativePath": "api/dev-events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AwesomeDevEvents.API.Controllers.DevEventsController",
+    "Method": "Post",
+    "RelativePath": "api/dev-events",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "devEvent",
+        "Type": "AwesomeDevEvents.API.Entities.DevEvent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AwesomeDevEvents.API.Controllers.DevEventsController",
+    "Method": "GetById",
+    "RelativePath": "api/dev-events/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AwesomeDevEvents.API.Controllers.DevEventsController",
+    "Method": "Update",
+    "RelativePath": "api/dev-events/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "input",
+        "Type": "AwesomeDevEvents.API.Entities.DevEvent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AwesomeDevEvents.API.Controllers.DevEventsController",
+    "Method": "Delete",
+    "RelativePath": "api/dev-events/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AwesomeDevEvents.API.Controllers.DevEventsController",
+    "Method": "PostSpeaker",
+    "RelativePath": "api/dev-events/{id}/speakers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "speaker",
+        "Type": "AwesomeDevEvents.API.Entities.DevEventSpeaker",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AwesomeDevEvents.API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AwesomeDevEvents.API.WeatherForecast, AwesomeDevEvents.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
